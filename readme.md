@@ -16,4 +16,4 @@ Run Tailwind CLI
 npm run watch
 ```
 
-![Alt text](img/bookmark.png)
+![Alt text](img/bookmark.png?raw=true "Bookmark Website")
