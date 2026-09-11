@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+@theme {
+  /* Breakpoints */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1440px;
+
+  /* Colors */
+  --color-soft-blue: hsl(231, 69%, 60%);
+  --color-soft-red: hsl(0, 94%, 66%);
+  --color-grayish-blue: hsl(229, 8%, 60%);
+  --color-verydark-blue: hsl(229, 31%, 21%);
+
+  /* Font Family */
+  --font-sans: "Rubik", sans-serif;
+}
+
+@media (min-width: 1020px) {
+  .bg-hero {
+    width: 2000px;
+    height: 300px;
+    left: 30%;
+
+    @apply absolute rounded-l-full top-52 bg-soft-blue;
+  }
+}
