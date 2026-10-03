@@ -17,7 +17,7 @@
   --font-sans: "Rubik", sans-serif;
 }
 
-@media (min-width: 1020px) {
+@media screen (--breakpoint-lg) {
   .bg-hero {
     width: 2000px;
     height: 300px;
