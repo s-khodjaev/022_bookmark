@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   /* Breakpoints */
@@ -14,7 +14,10 @@
   --color-verydark-blue: hsl(229, 31%, 21%);
 
   /* Font Family */
-  --font-sans: "Rubik", sans-serif;
+  --font-sans: 'Rubik', sans-serif;
+
+  /* Background Image for Dots */
+  --background-image-dots: url('../img/bg-dots.svg');
 }
 
 @variant lg {
